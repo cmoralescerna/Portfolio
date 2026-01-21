@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Tradr",
         description: "A website that allows users to upload and trade items with one another.",
-        video: "/Projects/Tradr.mp4",
+        video: "https://www.youtube.com/embed/ESCkl1fs66I",
         tags: ["Vue.js", "Express","Bootstrap"],
         githubURL: "https://github.com/cmoralescerna/Tradr"
     },
@@ -13,7 +13,7 @@ const projects = [
         id: 2,
         title: "Avoido",
         description: "A smartstick application using a microcontroller and sensors to alert visually impaired users of incoming obstacles.",
-        video: "/Projects/Avoido.mp4",
+        video: "https://www.youtube.com/embed/CBB75uGpWyw",
         tags: ["Flutter", "Arduino", "C++"],
         githubURL: "https://github.com/cmoralescerna/Avoido/tree/main/avoido-main"
 
@@ -22,7 +22,7 @@ const projects = [
         id: 3,
         title: "OmniArt",
         description: "A web application that serves as a digital art gallery. One of my first projects.",
-        video: "/Projects/OmniArt.mp4",
+        video: "https://www.youtube.com/embed/Vee8WTL7678",
         tags: ["C#", "HTML", ".NET MAUI"],
         githubURL: "https://github.com/cmoralescerna/OmniArt"
     },
@@ -47,7 +47,7 @@ export const ProjectsSection = () => {
                                 className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                             >
                                 <div className="h-48 overflow-hidden">
-                                    <video
+                                    <iframe
                                         src={project.video}
                                         alt={project.title}
                                         controls
