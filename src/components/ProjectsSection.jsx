@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "Tradr",
         description: "A website that allows users to upload and trade items with one another.",
-        video: "/projects/tradr.mp4",
+        video: "/Projects/Tradr.mp4",
         tags: ["Vue.js", "Express","Bootstrap"],
         githubURL: "https://github.com/cmoralescerna/Tradr"
     },
@@ -13,7 +13,7 @@ const projects = [
         id: 2,
         title: "Avoido",
         description: "A smartstick application using a microcontroller and sensors to alert visually impaired users of incoming obstacles.",
-        video: "/projects/avoido.mp4",
+        video: "/Projects/Avoido.mp4",
         tags: ["Flutter", "Arduino", "C++"],
         githubURL: "https://github.com/cmoralescerna/Avoido/tree/main/avoido-main"
 
@@ -21,8 +21,8 @@ const projects = [
     {
         id: 3,
         title: "OmniArt",
-        description: "A web application that serves as a digital art gallery",
-        video: "/projects/omniart.mp4",
+        description: "A web application that serves as a digital art gallery. One of my first projects.",
+        video: "/Projects/OmniArt.mp4",
         tags: ["C#", "HTML", ".NET MAUI"],
         githubURL: "https://github.com/cmoralescerna/OmniArt"
     },
@@ -48,9 +48,10 @@ export const ProjectsSection = () => {
                             >
                                 <div className="h-48 overflow-hidden">
                                     <video
-                                        src={project.video} 
+                                        src={project.video}
                                         alt={project.title}
-                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                        controls
+                                        className="w-full h-full object-cover"
                                     />
                                 </div>
                                 <div className="p-6">
