@@ -13,12 +13,17 @@ export const AboutSection = () => {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
                         <p className="text-muted-foreground">
-                            Years of experience. specializations stuff i know. so on.
+                            I have 3 years of experience in web development and I'm excited
+                            to work on a real application that millions of users use and gain 
+                            even more experience!
                         </p>
 
                         <p>
-                            I'm passionate about creating elegant solutions to complex
-                            problems blah blah blah. Another paragraph.
+                            I'm passionate about creating elegant solutions to complex and
+                            everyday problems. Especially when it comes to desgining systems
+                            and working with the backend. Maintainability, scalability, and 
+                            interopertability are crucial, especially when it comes to larger
+                            and complex systems!
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -56,7 +61,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> UI/UX</h4>
                                         <p className="text-muted-foreground">
-                                            Designing intuitive user interfaces and seamless user experiences.
+                                            Designing intuitive user interfaces and a smooth user experience.
                                         </p>
                                 </div>
                             </div>
@@ -69,7 +74,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Project Management</h4>
                                         <p className="text-muted-foreground">
-                                            Leading projects from conception to completion with agile methodologies.
+                                            Leading group projects from conception to completion with agile methodologies.
                                         </p>
                                 </div>
                             </div>
