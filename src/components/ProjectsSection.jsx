@@ -5,18 +5,16 @@ const projects = [
         id: 1,
         title: "Tradr",
         description: "A website that allows users to upload and trade items with one another.",
-        image: "/projects/project1.png",
+        video: "/projects/tradr.mp4",
         tags: ["Vue.js", "Express","Bootstrap"],
-        demoURL: "#",
         githubURL: "#"
     },
     {
         id: 2,
         title: "Avoido",
         description: "A smartstick application using a microcontroller and sensors to alert visually impaired users of incoming obstacles.",
-        image: "/projects/project2.png",
+        video: "/projects/avoido.mp4",
         tags: ["Flutter", "Arduino", "C++"],
-        demoURL: "#",
         githubURL: "#"
 
     },
@@ -24,9 +22,8 @@ const projects = [
         id: 3,
         title: "OmniArt",
         description: "A web application that serves as a digital art gallery",
-        image: "/projects/project3.png",
+        video: "/projects/omniart.mp4",
         tags: ["C#", "HTML"],
-        demoURL: "#",
         githubURL: "#"
     },
 ];
@@ -50,8 +47,8 @@ export const ProjectsSection = () => {
                                 className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                             >
                                 <div className="h-48 overflow-hidden">
-                                    <img 
-                                        src={project.image} 
+                                    <video
+                                        src={project.video} 
                                         alt={project.title}
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                     />
@@ -72,17 +69,10 @@ export const ProjectsSection = () => {
                                 <div className="flex justify-between items-center">
                                     <div className="flex space-x-3">
                                         <a 
-                                            href={project.demoURL} 
-                                            target="_blank"
-                                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                        > 
-                                            <ExternalLink size={20}/>
-                                        </a>
-                                        <a 
                                             href={project.githubURL} 
                                             target="_blank"
                                             className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                        >
+                                        > 
                                             <Github size={20}/>
                                         </a>
                                     </div>

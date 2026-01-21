@@ -1,4 +1,5 @@
-import { Mail, Phone, MapPin} from "lucide-react";
+import { Mail, Phone } from "lucide-react";
+import { FaLinkedin } from "react-icons/fa";
 
 export const ContactSection = () => {
     return (
@@ -48,15 +49,16 @@ export const ContactSection = () => {
                             </div>
                             <div className="flex items-start space-x-4 justify-center">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <MapPin className="h-6 w-6 text-primary"/>
+                                    <FaLinkedin  className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium"> Location </h4>
+                                    <h4 className="font-medium"> Linkedin </h4>
                                     <a 
-                                        href="mailto:cmoralescerna22@gmail.com" 
+                                        href="https://www.linkedin.com/in/catherinemoralesc/" 
+                                        target="_blank"
                                         className="text-muted-foreground hover:text-primary transition-colors"
                                     >
-                                        Central New Jersey
+                                        www.linkedin.com/in/catherinemoralesc
                                     </a>
                                 </div>
                             </div>
