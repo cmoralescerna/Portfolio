@@ -7,7 +7,7 @@ const projects = [
         description: "A website that allows users to upload and trade items with one another.",
         video: "/projects/tradr.mp4",
         tags: ["Vue.js", "Express","Bootstrap"],
-        githubURL: "#"
+        githubURL: "https://github.com/cmoralescerna/Tradr"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const projects = [
         description: "A smartstick application using a microcontroller and sensors to alert visually impaired users of incoming obstacles.",
         video: "/projects/avoido.mp4",
         tags: ["Flutter", "Arduino", "C++"],
-        githubURL: "#"
+        githubURL: "https://github.com/cmoralescerna/Avoido/tree/main/avoido-main"
 
     },
     {
@@ -23,8 +23,8 @@ const projects = [
         title: "OmniArt",
         description: "A web application that serves as a digital art gallery",
         video: "/projects/omniart.mp4",
-        tags: ["C#", "HTML"],
-        githubURL: "#"
+        tags: ["C#", "HTML", ".NET MAUI"],
+        githubURL: "https://github.com/cmoralescerna/OmniArt"
     },
 ];
 

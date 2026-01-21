@@ -15,10 +15,10 @@ export const ContactSection = () => {
                     I will soon be a new grad and am very interested in finding a Software Engineering
                     position. Do my skills align with what you are looking for? Please contact me!
                 </p>
-                <div className="grid grid-cols-1gap-12">
+                <div className="grid grid-cols-1 gap-12">
                     <div className="space-y-8">
-                        <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
-                        <div className="space-y-6 justify-center">
+                        <h3 className="text-2xl font-semibold mb-15">Contact Information</h3>
+                        <div className="grid grid-cols-1 md: grid-cols-3 gap-6 justify-center">
                             <div className="flex items-start space-x-4 justify-center">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Mail className="h-6 w-6 text-primary"/>

@@ -7,17 +7,26 @@ const skills = [
     { name: "JavaScript", level: 80, category: "frontend"},
     { name: "Vue.js", level: 85, category: "frontend"},
     { name: "Bootstrap", level: 80, category: "frontend"},
+    { name: ".NET MAUI", level: 70, category: "frontend"},
+    { name: "Spring Boot", level: 60, category: "frontend"},
 
     // Backend
     { name: "Node.js", level: 90, category: "backend"},
-    { name: "Express", level: 90, category: "backend"},
-    { name: "MongoDB", level: 90, category: "backend"},
-    { name: "Mongoose", level: 90, category: "backend"},
+    { name: "Express.js", level: 90, category: "backend"},
+    { name: "Java", level: 90, category: "backend"},
+    { name: "C#", level: 70, category: "backend"},
+    { name: "C++", level: 40, category: "backend"},
+    { name: "Golang", level: 75, category: "backend"},
 
     // Tools
     { name: "Git", level: 95, category: "tools"},
     { name: "Docker", level: 60, category: "tools"},
     { name: "VS Code", level: 95, category: "tools"},
+    { name: "Postman", level: 95, category: "tools"},
+    { name: "IntelliJ", level: 60, category: "tools"},
+    { name: "Mongoose", level: 90, category: "tools"},
+    { name: "MongoDB", level: 90, category: "tools"},
+    { name: "Wireshark", level: 50, category: "tools"}
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
